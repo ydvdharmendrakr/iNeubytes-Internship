@@ -1,0 +1,97 @@
+.contact{
+    margin-left: 210px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    height: auto;
+    width: 80%;
+}
+
+.card0{
+    box-shadow: #0000003d 0px 3px 8px;
+    border-radius: none;
+}
+
+.card2{
+    margin: 20px 40px;
+}
+
+.card1 .image{
+  height: 100%;
+  width: 100%;
+}
+
+
+.line{
+    height: 1px;
+    width: 45%;
+    background-color: #e0e0e0;
+    margin-top: 10px;
+}
+
+.or{
+    display: flex;
+    width: 10%;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300px;
+}
+
+input ,textarea{
+    padding: 10px 12px;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: 100%;
+    color: #138781;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus{
+    box-shadow: none !important;
+    outline: 1px solid #138187;
+    outline-width: 1px;
+}
+
+button:focus{
+    box-shadow: none;
+    outline-width:0px ;
+}
+
+.button{
+    background-color: #1e1e2c;
+    color: #ffffff;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.button:hover{
+    background-color: #d134e2;
+    color: #ffffff;
+}
+
+/* ----------mobile size--------- */
+
+@media (max-width:600px){
+    .contact{
+        margin: 0;
+        padding: 0;
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+    .contact .card2{
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact .card2 h6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
